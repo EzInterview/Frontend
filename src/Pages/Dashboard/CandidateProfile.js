@@ -7,7 +7,7 @@ import {
   ref,
   uploadBytesResumable,
 } from "firebase/storage";
-import { app } from "../../../firebase";
+import { app } from "../../firebase";
 import axios from 'axios'; // Import Axios library
 
 const CandidateProfile = () => {
